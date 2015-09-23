@@ -1,0 +1,15 @@
+*{
+	list-style: none;
+}
+
+.octocat {
+	display: inline-block;
+	border-bottom: 1px solid darkblue;
+}
+
+.octocat img{
+	height: auto;
+	width: 250px;
+	margin: 15px;
+}
+
