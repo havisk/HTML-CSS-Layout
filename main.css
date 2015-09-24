@@ -10,6 +10,28 @@
 .octocat img{
 	height: auto;
 	width: 250px;
-	margin: 15px;
+	border-radius: 5px;
 }
+
+.image-number {
+	font-size: 10px;
+}
+
+.image-footer:before{
+	position: absolute;
+	margin: 400px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 7.5px 0 7.5px;
+	border-color: #2f5175 transparent transparent transparent;
+}
+
+.image-footer span{
+	margin-top: 8px;
+	display: inline-block;
+}
+
+
 
