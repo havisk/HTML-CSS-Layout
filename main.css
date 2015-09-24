@@ -2,24 +2,23 @@
 	list-style: none;
 }
 
+
 .octocat {
+	margin: 15px;
 	display: inline-block;
-	border-bottom: 1px solid darkblue;
+	border-bottom: 1px solid lightgrey;
 }
 
 .octocat img{
-	height: auto;
-	width: 250px;
-	border-radius: 5px;
-}
-
-.image-number {
-	font-size: 10px;
+	width: 350px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
 }
 
 .image-footer:before{
 	position: absolute;
-	margin: 400px;
+	top: 385px;
+	margin-left: 330px;
 	content: "";
 	width: 0;
 	height: 0;
@@ -28,9 +27,44 @@
 	border-color: #2f5175 transparent transparent transparent;
 }
 
+.image-footer {
+	height: 20px;
+}
+
 .image-footer span{
-	margin-top: 8px;
+	margin-top: 11px;
 	display: inline-block;
+}
+
+.image-number {
+	font-size: 15px;
+}
+
+.image-number:before {
+	content: "#"
+}
+
+.image-caption{
+	display: inline;
+	float: right;
+	color: grey;
+	font-size: 15px
+}
+
+a {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.authors {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.authors img{
+	width: 25px;
+	display: inline-block;
+	float: right;
 }
 
 
